@@ -10,6 +10,7 @@ shortcuts / time limitations:
 ## Run:
 ```
 npm i
+cd src
 node app.js
 ```
 
