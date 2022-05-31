@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --timeout 0 \".\\app.test.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,10 @@
   "homepage": "https://github.com/StefanVrecic/vrecicbox#readme",
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
+    "chai": "^4.3.6",
     "express": "^4.18.1",
     "keyv": "^4.3.0",
+    "mocha": "^10.0.0",
     "redis": "^4.1.0",
     "Router": "^2.1.0"
   }

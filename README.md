@@ -1,10 +1,14 @@
 # vrecicbox
 
+Spent 2 hours on this, ran out of time
+
 shortcuts / time limitations:
 -> didn't implement db or filtering yet.
--> only 1 test done
+-> testing not set up
+-> tests in package json hardcoded to 1 file instead of all directories
 -> Didn't use env for API key, just hardcoded
 -> Didn't use TypeScript
+-> Paid little attention to tidying directories etc.
 
 
 ## Run:
