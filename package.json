@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/StefanVrecic/vrecicbox#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "@sendgrid/mail": "^7.7.0",
+    "express": "^4.18.1",
+    "keyv": "^4.3.0",
+    "redis": "^4.1.0",
+    "Router": "^2.1.0"
   }
 }
