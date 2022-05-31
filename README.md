@@ -3,12 +3,17 @@
 shortcuts / time limitations:
 -> didn't implement db or filtering yet.
 -> only 1 test done
+-> Didn't use env for API key, just hardcoded
+-> Didn't use TypeScript
+
 
 ## Run:
 ```
 npm i
 node app.js
 ```
+
+Set up your API key in K.js
 
 Use this data in postman to test
 ```
